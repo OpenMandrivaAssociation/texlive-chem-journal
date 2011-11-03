@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/chem-journal
+# catalog-date 2007-01-01 10:31:54 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-chem-journal
 Version:	20070101
 Release:	1
@@ -39,6 +45,7 @@ Chemistry Chemical Physics.
 %{_texmfdistdir}/bibtex/bst/chem-journal/jpc.bst
 %{_texmfdistdir}/bibtex/bst/chem-journal/pccp.bst
 %{_texmfdistdir}/bibtex/bst/chem-journal/revcompchem.bst
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ Chemistry Chemical Physics.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
