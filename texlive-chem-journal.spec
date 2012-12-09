@@ -47,3 +47,18 @@ Chemistry Chemical Physics.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070101-2
++ Revision: 750145
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070101-1
++ Revision: 718043
+- texlive-chem-journal
+- texlive-chem-journal
+- texlive-chem-journal
+- texlive-chem-journal
+- texlive-chem-journal
+
