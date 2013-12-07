@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-chem-journal
 Version:	20070101
-Release:	4
+Release:	5
 Summary:	Various BibTeX formats for journals in Chemistry
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/chem-journal
