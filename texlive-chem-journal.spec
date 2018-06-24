@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-chem-journal
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Various BibTeX formats for journals in Chemistry
 Group:		Publishing
