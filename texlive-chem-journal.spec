@@ -5,7 +5,7 @@ Summary:	Various BibTeX formats for journals in Chemistry
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/chem-journal
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chem-journal.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chem-journal.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
